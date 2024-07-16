@@ -10,6 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Run My Custom Action
+        run: echo '000000000000000000000000000000000000'
       # - uses: amachlou/github-actions-dummy-standalone-action@v6
 
       # Runs a single command using the runners shell

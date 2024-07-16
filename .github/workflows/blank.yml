@@ -10,8 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: amachlou/github-actions-dummy-standalone-action@v1.0.0
+      - uses: amachlou/github-actions-dummy-standalone-action@2
 
       # Runs a single command using the runners shell
       - name: Run a one-line script

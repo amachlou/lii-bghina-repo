@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: https://github.com/amachlou/github-actions-dummy-standalone-action@v6
+      - uses: /amachlou/github-actions-dummy-standalone-action@v6
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
